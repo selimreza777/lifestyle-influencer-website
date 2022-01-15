@@ -60,17 +60,32 @@ p{
   margin: 25px 0;
 
 }
-.btn{
-  display: inline-block;
-  background: #ff523b;
+.header-X button{
+  width: 150px;
+  border: 0;
+  padding: 12px 10px;
+  outline: none;
   color: #fff;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
+  background: linear-gradient(to right, #fb5283,#ff3527);
+  border-radius: 6px;
   cursor: pointer;
   transition: width 0.5s;
-  
 }
+button img{
+  width: 30px;
+  display: none;
+}
+button:hover img{
+  display: block;
+}
+button:hover{
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
 
 
   
